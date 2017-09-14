@@ -12,9 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "uglifyjs-webpack-plugin": "^0.4.6",
+    "eslint": "^4.6.1",
     "webpack": "^3.5.6"
-  },
-  "dependencies": {
-    "lodash": "^4.17.4"
   }
 }
