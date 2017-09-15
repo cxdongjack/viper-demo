@@ -1,5 +1,11 @@
 import { appendHtml } from 'viperjs/dom';
+
+{{#sss}}
+    <div>Hello webpack</div>
+{{#}}
+
 function component() {
-    return ['Hello', 'webpack'].join(' ');
+    return sss();
 }
+
 appendHtml(document.body, component());

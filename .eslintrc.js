@@ -11,6 +11,7 @@ module.exports = {
         "browser": true,
         "jasmine": true
     },
+    "plugins": ["viper"],
     "extends": "eslint:recommended",
     "rules": {
         "no-console": [
