@@ -457,10 +457,16 @@ function insertHtmlAfter($elem, html) {
 
 // CONCATENATED MODULE: ./src/index.js
 
+
+function sss() {var out='\
+    <div>Hello webpack</div>\
+';return out;}
+
 function component() {
-  return ['Hello', 'webpack'].join(' ');
+    return sss();
 }
-appendHtml(document.body, component())
+
+appendHtml(document.body, component());
 
 
 /***/ })
