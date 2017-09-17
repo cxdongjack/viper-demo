@@ -3,15 +3,15 @@ import { appendHtml } from 'viperjs/dom';
 function tpl() {
     /* def viper-template */
     <div>
-        {$if(a > b)}
+        {$if(2 > 1)}
             condition
         {$else}
-            condition2
+            condition
         {$fi}
-        {$each(list, item, index)}
-            <div>{ '123' }</div>
+        {$each([1, 2] / item / i)}
+        <div>{ '123' }</div>
         {$end}
-    </div>;
+    </div>
     /* end */
 }
 
